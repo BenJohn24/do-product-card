@@ -1,0 +1,15 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ProductImage > debe de mostrar el componente con una imagen 1`] = `
+<DocumentFragment>
+  <div
+    class="_productCard_133f98 undefined"
+  >
+    <img
+      alt="Product Image"
+      class="_productImg_133f98 undefined "
+      src="./coffee-mug.png"
+    />
+  </div>
+</DocumentFragment>
+`;

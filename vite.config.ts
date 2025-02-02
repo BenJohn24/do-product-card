@@ -1,3 +1,5 @@
+/// <reference types="vitest" />
+
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
@@ -8,6 +10,11 @@ export default defineConfig({
     assetsInlineLimit: 8192,
   },
   plugins: [react()],
+  test: {
+    globals: true,
+    environment: 'jsdom',
+    setupFiles: './src/setupTests.ts',
+  },
   css: {
     modules: {
       // Si deseas configurar la forma en que se generan los nombres de las clases
@@ -15,4 +22,5 @@ export default defineConfig({
       generateScopedName: '[local]_[hash:base64:2]'
     }
   },
+
 })

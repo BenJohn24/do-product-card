@@ -1,0 +1,15 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ProductTitle > debe de mostrar el component con el nombre del producto 1`] = `
+<DocumentFragment>
+  <div
+    class="_productCard_133f98 undefined"
+  >
+    <span
+      class="_productDescription_133f98 undefined"
+    >
+      Coffe Mug - Sing Imagen
+    </span>
+  </div>
+</DocumentFragment>
+`;
